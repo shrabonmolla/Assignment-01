@@ -65,9 +65,11 @@ header{
     align-items: center;
     gap: 50px;
     padding: 40px;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
-.action h3{
+ h3{
     font-size: 2rem;
 }
 
@@ -75,3 +77,25 @@ header{
     border-radius: 20px;
 }
 
+
+
+/*section productive-user*/
+
+
+.productive-user{
+    text-align: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: #eef0ff;
+    border-radius: 20px;
+    padding: 30px;
+}
+.bigtext{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.Statistics{
+    font-size: 5rem;
+    color: #4E47FF;
+}
