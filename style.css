@@ -1,6 +1,9 @@
 .primary-font-color {
     color:#4E47FF;
 }
+.second-font-color{
+    color: #26252f;
+}
 .primary-btn{
     background-color: #4E47FF;
     color: white;
@@ -52,3 +55,23 @@ header{
 .word-style{
     display: block;
 }
+
+
+/*section action*/
+
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 40px;
+}
+
+.action h3{
+    font-size: 2rem;
+}
+
+.action img {
+    border-radius: 20px;
+}
+
